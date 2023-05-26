@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/primal-arcadia-387902/gcpdevops
+        image: gcr.io/primal-arcadia-387902/gcpdevops:latest
         ports:
         - containerPort: 5000
         env:
